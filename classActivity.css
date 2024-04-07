@@ -1,0 +1,277 @@
+@font-face{
+    font-family: enchants;
+    src:url(Oracul\ Decorative\ Regular.otf);
+    font-family: frisky;
+    src:url(Frisky\ Puppy.ttf);
+}
+@font-face{
+    font-family: puppy;
+    src:url(puppybellies/PuppyBellies.ttf);
+}
+@font-face{
+    font-family: dog name;
+    src:url(dogname/Dogname.ttf)
+}
+@font-face{
+    font-family: mermaid;
+    src:url(mermaid/Mermaid1001.ttf);
+}
+@font-face{
+    font-family: adelia;
+    src:url(ADELIA.otf);
+}
+@font-face{
+    font-family: chicken pie;
+    src:url(chicken_pie/CHICKEN\ Pie.ttf);
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row-reverse; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    top: 40px;
+    position:relative;
+    z-index: 5;
+    line-height: 0%;
+}
+a{
+    list-style-type:none;
+    text-decoration: none;
+    font-family: frisky;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color:#f9f9f9;
+    padding: 30px 10px;
+    line-height: 0%;
+}
+nav a:hover{
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 111), 0 0 5px rgb(255, 179, 0);
+}
+.logo{
+    width: 10%;
+    float: left;
+    z-index: 5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    margin-top: 0px;
+    top: 30px;
+    line-height: 0%;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(to bottom, rgb(255, 55, 105), rgb(255, 111, 142) 50%, rgb(255, 185, 100), rgb(255, 214, 30));
+    padding: 0;
+    margin: 0;
+}
+
+.BannerImage {
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(puppy\ banner\ 1.png); 
+    background-position: 69%;
+    border-radius: 10px;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 0;
+    line-height: 0%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+.BannerImage:after{
+    content:'';
+    display:block;
+    width: 100%;
+    height: 65vh;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: rgb(25, 23, 23);
+    opacity: .7;
+    z-index: -1;
+}  
+#infoArea1{
+    display:flex;
+}
+#userInfo{
+    width: 40%;
+    padding: 10px 50px;
+}
+
+p {
+    font-size: 1.5rem;
+    color:rgb(255, 123, 0);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 0, 111), 0 0 5px rgb(255, 179, 0);
+    border: 2px solid rgba(255, 255, 255, 0.682);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    padding: 5px;
+    height: 150px;
+    width: 900px;
+    size: 100%;
+    box-shadow: 2px 2px 5px rgba(red, green, blue, alpha);
+    background-color:rgba(255, 255, 255, 0.665);
+    text-align: 1.5px;
+    font-family: puppy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sectionArea1{
+    background-color: rgba(0, 0, 0, 0.55);
+    border: rgba(255, 255, 255, 0.69);
+    border-radius: 8px;
+    size: 100%;
+    padding: 30px;
+    height: 150px;
+    width: 1020px;
+    position:relative;
+    transform: translate(9.5%, 0%);
+
+}
+#tableinfo caption{
+    text-align: center;
+    font-family: dog name;
+    color:#ccc;
+    font-size:1.9rem;
+     padding-left: 8%;
+}
+.tableheader{
+    border-collapse: collapse;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: black;
+    background-color: #ccc;
+}
+tr.tableholder th{
+    text-align: left;
+    padding: 2rem 0 1rem 1rem;
+}
+tr.tablebody td:first-of-type{
+    vertical-align: top;
+}
+td{
+vertical-align: top;
+}
+.rowcolor{
+    font-family: mermaid;
+    color:#ccc;
+    font-size: 1.2rem;
+}
+.rowcolor2{
+    font-family: mermaid;
+    color:#ccc;
+    font-size: 1.2rem;
+}
+.rowcolor3{
+    font-family: mermaid;
+    color:#ccc;
+    font-size: 1.2rem;
+}
+.rowcolor4{
+    font-family: mermaid;
+    color:#ccc;
+    font-size: 1.2rem;
+}
+.rowcolor:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 60, 0.326), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.rowcolor2:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 60, 0.326), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.rowcolor3:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 60, 0.326), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.rowcolor4:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 60, 0.326), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.55);
+}
+.Vaccination{
+    text-align:justify;
+    color:rgb(230, 230, 230);
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+    margin:1.1rem 0;
+    background-color: #ffffff45;
+    height: 400px;
+    width: 800px;
+    position: relative;
+    padding:1.2rem 0;
+    margin-left: 230px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.326), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  #formid p1{
+    position:relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.468);
+    z-index: 3;
+    font-size: 2rem;
+    margin-right: 100px;
+    size: 100%;
+    padding-left: 130px;
+    font-family: adelia;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 136, 0), 0 0 5px rgb(215, 0, 79);
+  }
+  .formInfo{
+
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    padding: 20px; 
+    background-color: #000000de; 
+    color: #333; 
+    width: 700px; 
+  }
+  .formInfo >div{
+    margin-bottom: 1.2rem;
+  }
+  .form-group label {
+    width: 150px; 
+    font-family: mermaid;
+    margin-right: 30px;
+    color:#ffffff;
+    font-weight: 50;
+    
+}
+
+.formInfo > input[type="submit"] {
+    display:block;
+    margin:auto;
+    color: #00ca18;
+    font-family: puppy;
+    font-weight: 300;
+    font-size: 2rem;
+}
+footer{
+    font-size: small;
+    font-family: monospace;
+    color: black;
+    background-color: grey;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 30px;
+
+}
